@@ -112,7 +112,7 @@ p {
 }
 
 .weather-app {
-  color: #a2d6f6;
+  color: #3486ba;
   font-size: 30px;
   font-weight: bolder;
 }
@@ -123,9 +123,10 @@ p {
 }
 
 .main .weather-button {
-  background-color: #a2d6f6;
+  background-color: #3486ba;
   border-radius: 4px;
-  color: black;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
+  color: white;
   font-family: monospace;
   font-size: 14px;
   font-weight: bold;
@@ -136,6 +137,7 @@ p {
 .main .world-clock-button {
   background-color: #07104e;
   border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
   color: var(--branding-color);
   font-family: monospace;
   font-size: 14px;
@@ -164,6 +166,7 @@ p {
 .main .ai-generator-button {
   background-color: #5e87b8;
   border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
   color: var(--branding-color);
   font-family: monospace;
   font-size: 14px;
