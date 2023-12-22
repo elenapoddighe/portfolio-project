@@ -210,9 +210,6 @@ h1 {
   max-width: 500px;
 }
 
-.about-buttons {
-}
-
 .about-header .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
