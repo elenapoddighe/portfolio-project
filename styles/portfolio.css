@@ -210,6 +210,9 @@ h1 {
   max-width: 500px;
 }
 
+.about-buttons {
+}
+
 .about-header .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
@@ -281,5 +284,18 @@ h1 {
 
   footer {
     font-size: 10px;
+  }
+
+  .about-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-header img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
   }
 }
