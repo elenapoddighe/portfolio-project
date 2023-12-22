@@ -55,7 +55,7 @@ hr {
   margin: 0;
 }
 
-h3 {
+.basic-info-title {
   color: var(--branding-color);
   font-size: 20px;
   font-weight: bolder;
@@ -106,10 +106,12 @@ p {
 .weather-app {
   color: #a2d6f6;
   font-size: 30px;
+  font-weight: bolder;
 }
 
 .main p {
   line-height: 2;
+  text-align: justify;
 }
 
 .main a {
@@ -142,11 +144,13 @@ p {
 .world-clock-app {
   color: #07104e;
   font-size: 30px;
+  font-weight: bolder;
 }
 
 .ai-generator-app {
   color: #5e87b8;
   font-size: 30px;
+  font-weight: bolder;
 }
 
 .main .ai-generator-button {
@@ -158,4 +162,17 @@ p {
   font-weight: bold;
   margin: 15px 0;
   padding: 12px 20px;
+}
+
+footer {
+  color: var(--branding-color);
+  font-size: 12px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: var(--branding-color);
+  font-weight: 700;
+  text-decoration: none;
 }
