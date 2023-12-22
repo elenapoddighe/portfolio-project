@@ -176,3 +176,31 @@ footer a {
   font-weight: 700;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .main h2 {
+    font-size: 24px;
+  }
+
+  .weather-app,
+  .world-clock-app,
+  .ai-generator-app {
+    font-size: 22px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+}
