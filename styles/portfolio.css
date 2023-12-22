@@ -73,7 +73,10 @@ p {
 }
 
 .fa-linkedin,
-.fa-github {
+.fa-github,
+.fa-html5,
+.fa-css3-alt,
+.fa-js {
   color: white;
   font-size: x-large;
 }
@@ -85,4 +88,70 @@ p {
 
 .social-links {
   text-align: center;
+}
+
+.main {
+  background-color: var(--secondary-background-color);
+}
+
+.main h2 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.weather-app {
+  color: #a2d6f6;
+  font-size: 30px;
+}
+
+.main p {
+  line-height: 2;
+}
+
+.main a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.main .weather-button {
+  background-color: #a2d6f6;
+  border-radius: 4px;
+  color: black;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
+}
+
+.main .world-clock-button {
+  background-color: #07104e;
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
+}
+
+.world-clock-app {
+  color: #07104e;
+  font-size: 30px;
+}
+
+.ai-generator-app {
+  color: #5e87b8;
+  font-size: 30px;
+}
+
+.main .ai-generator-button {
+  background-color: #5e87b8;
+  border-radius: 4px;
+  color: var(--branding-color);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
 }
