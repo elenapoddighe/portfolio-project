@@ -18,6 +18,10 @@
   opacity: 75%;
 }
 
+.nav-item {
+  padding: 0 10px;
+}
+
 body {
   background-color: #191d22;
   font-family: var(--general-font-family);
