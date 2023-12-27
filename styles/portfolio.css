@@ -363,4 +363,12 @@ h1 {
     padding-top: 35px;
     width: 400px;
   }
+
+  .contact-paragraph {
+    font-size: 13px;
+  }
+
+  .contact-email {
+    font-size: 18px;
+  }
 }
