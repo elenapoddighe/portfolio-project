@@ -256,6 +256,52 @@ h1 {
   background-color: var(--secondary-background-color);
 }
 
+.work-main {
+  background-color: var(--secondary-background-color);
+}
+
+.project-title {
+  color: var(--branding-color);
+}
+
+.custom-work-images-first-row {
+  height: 275px;
+  width: 500px;
+}
+
+.custom-work-images-second-row {
+  height: 600px;
+  align-items: center;
+  width: 700px;
+}
+
+.work-buttons {
+  background-color: var(--branding-color);
+  border-radius: 4px;
+  color: black;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
+}
+
+.work-buttons:hover {
+  background-color: var(--branding-color);
+  opacity: 75%;
+}
+
+.work-paragraphs {
+  font-size: small;
+  opacity: 75%;
+}
+
+.dotted {
+  border-top: 3px dashed var(--branding-color);
+  color: var(--branding-color);
+  margin: 0;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 65px;
