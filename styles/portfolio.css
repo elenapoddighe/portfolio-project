@@ -302,6 +302,16 @@ h1 {
   margin: 0;
 }
 
+.contact-paragraph {
+  opacity: 75%;
+}
+
+.contact-email {
+  color: var(--branding-color);
+  font-size: 30px;
+  text-decoration: none;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 65px;
