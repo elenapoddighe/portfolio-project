@@ -341,4 +341,16 @@ h1 {
     max-width: 400px;
     height: auto;
   }
+
+  .custom-work-images-first-row {
+    padding-top: 35px;
+    width: 400px;
+  }
+
+  .custom-work-images-second-row {
+    height: 400px;
+    align-items: center;
+    padding-top: 35px;
+    width: 400px;
+  }
 }
