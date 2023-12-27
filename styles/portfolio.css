@@ -96,7 +96,8 @@ p {
 .fa-html5,
 .fa-css3-alt,
 .fa-js,
-.fa-instagram {
+.fa-instagram,
+.fa-envelope {
   color: white;
   font-size: x-large;
 }
@@ -199,7 +200,6 @@ p {
 footer {
   color: var(--branding-color);
   font-size: 12px;
-  margin: 20px 0;
   text-align: center;
 }
 
