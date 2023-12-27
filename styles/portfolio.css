@@ -6,6 +6,18 @@
   --secondary-background-color: #2d4059;
 }
 
+.navbar-bg-index {
+  background-color: var(--primary-background-color);
+}
+
+.navbar-bg {
+  background-color: var(--secondary-background-color);
+}
+
+.inactive {
+  opacity: 75%;
+}
+
 body {
   background-color: #191d22;
   font-family: var(--general-font-family);
@@ -27,7 +39,6 @@ h2 {
   font-family: var(--general-font-family);
   font-size: 80px;
   font-weight: bold;
-  margin-top: 40px;
   margin-bottom: 20px;
   padding-top: 15px;
 }
@@ -80,7 +91,8 @@ p {
 .fa-github,
 .fa-html5,
 .fa-css3-alt,
-.fa-js {
+.fa-js,
+.fa-instagram {
   color: white;
   font-size: x-large;
 }
@@ -199,7 +211,6 @@ footer a {
 
 h1 {
   color: var(--branding-color);
-  margin-top: 40px;
 }
 
 .about-pic {
@@ -262,6 +273,7 @@ h1 {
 
 .project-title {
   color: var(--branding-color);
+  opacity: 75%;
 }
 
 .custom-work-images-first-row {
@@ -310,6 +322,10 @@ h1 {
   color: var(--branding-color);
   font-size: 30px;
   text-decoration: none;
+}
+
+.social-container {
+  background-color: var(--secondary-background-color);
 }
 
 @media (max-width: 576px) {
