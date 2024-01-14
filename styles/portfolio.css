@@ -386,6 +386,15 @@ h1 {
   padding: 30px 0;
 }
 
+.CV-link {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.email-container {
+  background-color: var(--secondary-background-color);
+}
+
 .contact-email {
   color: var(--branding-color);
   font-size: 30px;
@@ -435,10 +444,11 @@ h1 {
   .weather-button,
   .world-clock-button,
   .ai-generator-button,
-  .responsive-button,
+  .responsive-application-button,
   .react-weather-button,
   .dictionary-button {
-    font-size: 10px;
+    font-size: 12px;
+    margin-bottom: 0;
   }
 
   .fa-linkedin,
@@ -508,6 +518,12 @@ h1 {
 
   .contact-paragraph {
     font-size: 13px;
+  }
+
+  .email-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-email {
