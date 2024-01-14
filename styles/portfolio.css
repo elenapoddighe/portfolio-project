@@ -144,7 +144,7 @@ p {
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
 }
 
-.main .weather-button {
+.weather-button {
   background-color: #3486ba;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -156,7 +156,7 @@ p {
   padding: 12px 20px;
 }
 
-.main .world-clock-button {
+.world-clock-button {
   background-color: #07104e;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -180,7 +180,7 @@ p {
   font-weight: bolder;
 }
 
-.main .ai-generator-button {
+.ai-generator-button {
   background-color: #5e87b8;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -192,13 +192,13 @@ p {
   padding: 12px 20px;
 }
 
-.main .responsive-application {
+.responsive-application {
   color: black;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.main .responsive-application-button {
+.responsive-application-button {
   background-color: black;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -210,13 +210,13 @@ p {
   padding: 12px 20px;
 }
 
-.main .react-weather-app {
+.react-weather-app {
   color: #4993bd;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.main .react-weather-button {
+.react-weather-button {
   background-color: #4993bd;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -228,13 +228,13 @@ p {
   padding: 12px 20px;
 }
 
-.main .dictionary-application {
+.dictionary-application {
   color: #add8e6;
   font-size: 30px;
   font-weight: bolder;
 }
 
-.main .dictionary-button {
+.dictionary-button {
   background-color: #add8e6;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
@@ -389,25 +389,61 @@ h1 {
 
 @media (max-width: 576px) {
   .hero h1 {
-    font-size: 65px;
+    font-size: 40px;
   }
 
   .hero h2 {
-    font-size: 18px;
+    font-size: 16px;
+  }
+
+  .elena-first-pic {
+    width: 80%;
+  }
+
+  .social-links {
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 
   p {
     font-size: 12px;
+    width: fit-content;
   }
 
   .main h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .weather-app,
   .world-clock-app,
-  .ai-generator-app {
-    font-size: 22px;
+  .ai-generator-app,
+  .responsive-application,
+  .react-weather-app,
+  .dictionary-application {
+    font-size: 20px;
+  }
+
+  .weather-button,
+  .world-clock-button,
+  .ai-generator-button,
+  .responsive-button,
+  .react-weather-button,
+  .dictionary-button {
+    font-size: 10px;
+  }
+
+  .fa-linkedin,
+  .fa-github,
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js,
+  .fa-instagram,
+  .fa-envelope,
+  .fa-bootstrap,
+  .fa-react,
+  .fa-node-js {
+    font-size: medium;
+    margin-right: 2px;
   }
 
   footer {
