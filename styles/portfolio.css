@@ -94,7 +94,8 @@ p {
 .fa-css3-alt,
 .fa-js,
 .fa-instagram,
-.fa-envelope {
+.fa-envelope,
+.fa-bootstrap {
   color: white;
   font-size: x-large;
 }
@@ -192,6 +193,24 @@ p {
 .ai-generator-app-image {
   border: 3px solid var(--branding-color);
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
+}
+
+.main .responsive-application {
+  color: black;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main .responsive-application-button {
+  background-color: black;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
+  color: var(--branding-color);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
 }
 
 footer {
