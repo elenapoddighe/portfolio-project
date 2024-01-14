@@ -95,7 +95,9 @@ p {
 .fa-js,
 .fa-instagram,
 .fa-envelope,
-.fa-bootstrap {
+.fa-bootstrap,
+.fa-react,
+.fa-node-js {
   color: white;
   font-size: x-large;
 }
@@ -132,7 +134,12 @@ p {
   font-weight: bolder;
 }
 
-.weather-app-image {
+.weather-app-image,
+.world-clock-app-image,
+.ai-generator-app-image,
+.responsive-app-image,
+.react-weather-app-image,
+.dictionary-app-image {
   border: 3px solid var(--branding-color);
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
 }
@@ -167,11 +174,6 @@ p {
   font-weight: bolder;
 }
 
-.world-clock-app-image {
-  border: 3px solid var(--branding-color);
-  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
-}
-
 .ai-generator-app {
   color: #5e87b8;
   font-size: 30px;
@@ -190,11 +192,6 @@ p {
   padding: 12px 20px;
 }
 
-.ai-generator-app-image {
-  border: 3px solid var(--branding-color);
-  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
-}
-
 .main .responsive-application {
   color: black;
   font-size: 30px;
@@ -206,6 +203,42 @@ p {
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
   color: var(--branding-color);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
+}
+
+.main .react-weather-app {
+  color: #4993bd;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main .react-weather-button {
+  background-color: #4993bd;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
+  color: var(--branding-color);
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 12px 20px;
+}
+
+.main .dictionary-application {
+  color: #add8e6;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.main .dictionary-button {
+  background-color: #add8e6;
+  border-radius: 4px;
+  box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
+  color: black;
   font-family: monospace;
   font-size: 14px;
   font-weight: bold;
