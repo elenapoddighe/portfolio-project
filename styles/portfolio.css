@@ -238,7 +238,7 @@ p {
   background-color: #add8e6;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(13, 12, 12, 0.2);
-  color: black;
+  color: black !important;
   font-family: monospace;
   font-size: 14px;
   font-weight: bold;
@@ -329,15 +329,24 @@ h1 {
   opacity: 75%;
 }
 
-.custom-work-images-first-row {
-  height: 275px;
-  width: 500px;
+.custom-work-images-react-row {
+  height: 270px;
+  width: 480px;
 }
 
-.custom-work-images-second-row {
-  height: 600px;
-  align-items: center;
-  width: 700px;
+.custom-work-weather-image-react-row {
+  height: 270px;
+  width: 480px;
+}
+
+.custom-work-images-javascript-row {
+  height: 450px;
+  width: 480px;
+}
+
+.custom-work-images-basic-row {
+  height: 350px;
+  width: 480px;
 }
 
 .work-buttons {
@@ -469,18 +478,28 @@ h1 {
 
   .project-title {
     font-size: 20px;
+    padding-top: 10px;
   }
 
-  .custom-work-images-first-row {
-    padding-top: 35px;
-    width: 400px;
+  .custom-work-images-react-row,
+  .custom-work-weather-image-react-row,
+  .custom-work-images-javascript-row,
+  .custom-work-images-basic-row {
+    padding-top: 15px;
+    width: 350px;
   }
 
-  .custom-work-images-second-row {
-    height: 400px;
-    align-items: center;
-    padding-top: 35px;
-    width: 400px;
+  .custom-work-images-javascript-row {
+    height: 300px;
+  }
+
+  .work-paragraphs {
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+
+  .work-buttons {
+    margin-bottom: 30px;
   }
 
   .contact-title {
